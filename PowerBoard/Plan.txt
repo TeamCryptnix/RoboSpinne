@@ -1,1 +1,12 @@
 Components it needs to power:
+    DE0-Nano
+    24 servos
+
+Features it needs to have:
+    BMS:
+        Over discharge protection
+        Over chare protection
+        Balanced charging
+
+Servos:
+    Voltage: 4.8V - 6V Using: 5V
