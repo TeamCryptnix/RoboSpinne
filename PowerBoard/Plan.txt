@@ -1,1 +1,2 @@
-1) Zusammenstellung aller Komponenten
+1) planing of all components on the hardware
+2) pcb in kicad to combine all the servos and the boards
