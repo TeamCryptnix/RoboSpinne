@@ -1,2 +1,2 @@
-# RoboSpinne
-We here at TeamCryptnix are making a robotic spider.
+# PowerBoard
+The powerboard will be used to power the FPGA, servos and all the other components.
