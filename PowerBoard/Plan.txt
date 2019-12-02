@@ -11,5 +11,5 @@ Features it needs to have:
 Servos:
     Voltage: 4.8V - 6V Using: 5V
     Current:
-        Idle:
-        Load:
+        Idle: 0.4A
+        Load: 1.5A
