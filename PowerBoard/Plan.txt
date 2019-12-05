@@ -1,12 +1,36 @@
 Components it needs to power:
+    // MCU
     DE0-Nano
     24 servos
+    Camera
+    Raspberry
+    Ultraschallsensoren
+    MPU6050
+    Voltage regulators
+    Power button
 
 Features it needs to have:
-    BMS:
-        Over discharge protection
-        Over chare protection
-        Balanced charging
+    Voltage regulators:
+        5V
+
+Voltage regulators:
+    Chosen: We don't use a Voltage regulator because it's just a heater.
+            Instead we are going to use a DC to DC converter.
+    LM1084:
+        Input Voltage: 6.5 - 30V (MAX DC)
+        Output Voltage: 5V (Fixed DC)
+        Output Current: 5A (MAX)
+        Dropout Voltage (MAX): 1.5V at 5A
+        Maximum Power Dissipation: 30W
+    LM7805:
+        Input Voltage: 7 - 35V (DC)
+        Output Voltage: 5 - 24V (DC)
+        Output Current: 1A (MAX)
+        Dropout Voltage: 2V at 1A
+
+DC to DC converters:
+    Chosen:
+
 
 Servos:
     Voltage: 4.8V - 6V Using: 5V
