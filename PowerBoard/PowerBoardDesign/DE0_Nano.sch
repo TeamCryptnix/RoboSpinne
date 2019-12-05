@@ -165,12 +165,10 @@ Entry Wire Line
 	7700 2250 7600 2350
 Entry Wire Line
 	7700 2150 7600 2250
-Text GLabel 9350 1600 2    50   Output ~ 0
+Text GLabel 9400 1600 2    50   Output ~ 0
 Servos
 Text Label 8850 2050 0    50   ~ 0
 Servo_0
-Wire Bus Line
-	9350 1600 9300 1600
 Connection ~ 9300 1600
 Wire Wire Line
 	8700 1950 9200 1950
@@ -246,10 +244,6 @@ Wire Wire Line
 	7700 3150 8200 3150
 Wire Wire Line
 	7700 3250 8200 3250
-Wire Bus Line
-	9300 1600 9300 3350
-Wire Bus Line
-	7600 1600 7600 3350
 Text Label 7750 2150 0    50   ~ 0
 Servo_13
 Text Label 7750 2250 0    50   ~ 0
@@ -272,4 +266,10 @@ Text Label 7750 3150 0    50   ~ 0
 Servo_22
 Text Label 7750 3250 0    50   ~ 0
 Servo_23
+Wire Bus Line
+	9300 1600 9400 1600
+Wire Bus Line
+	9300 1600 9300 3350
+Wire Bus Line
+	7600 1600 7600 3350
 $EndSCHEMATC
