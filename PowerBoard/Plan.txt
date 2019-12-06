@@ -30,8 +30,6 @@ Voltage regulators:
 
 DC to DC converters:
     Chosen:
-    MAX
-
 
 Servos:
     Voltage: 4.8V - 6V Using: 5V
