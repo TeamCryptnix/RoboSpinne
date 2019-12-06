@@ -30,6 +30,7 @@ Voltage regulators:
 
 DC to DC converters:
     Chosen:
+    MAX
 
 
 Servos:
