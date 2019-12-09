@@ -12,8 +12,9 @@ Components it needs to power:
 Features it needs to have:
     Voltage regulators:
         5V
+        (3.3V)
 
-Voltage regulators:
+Voltage regulators 5V:
     Chosen: We don't use a Voltage regulator because it's just a heater.
             Instead we are going to use a DC to DC converter.
     LM1084:
@@ -28,8 +29,15 @@ Voltage regulators:
         Output Current: 1A (MAX)
         Dropout Voltage: 2V at 1A
 
+Voltage regulators 3.3V:
+    Chosen: LM3940
+    LM3940:
+        Vout: 3.3V
+        Vin: 4.5 - 5.5V
+        Iout: 1A (1.2 - 1.7A MAX)
+
 DC to DC converters:
-    Chosen:
+    Chosen: One bought from Amazon because designing one would be to complicated
 
 Servos:
     Voltage: 4.8V - 6V Using: 5V
