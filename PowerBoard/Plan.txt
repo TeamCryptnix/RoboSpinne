@@ -1,18 +1,35 @@
-Components it needs to power:
-    // MCU
+Components:
     DE0-Nano
     24 servos
     Camera
-    Raspberry
+    Raspberry Pi Zero (MCU)
     Ultraschallsensoren
     MPU6050
     Voltage regulators
     Power button
 
+--------------------------------------------------------------------------------
+Voltage and Current specifications
+
+Voltages:
+    DE0-Nano: 5V
+    24 Servos: 5V
+    Raspberry: 5V
+
+Current consumption:
+    DE0-Nano:
+    24 Sevos: 24A (Peak)
+    Raspberry:
+
+--------------------------------------------------------------------------------
+
 Features it needs to have:
     Voltage regulators:
         5V
         (3.3V)
+
+--------------------------------------------------------------------------------
+Voltage Regualtion:
 
 Voltage regulators 5V:
     Chosen: We don't use a Voltage regulator because it's just a heater.
@@ -39,8 +56,13 @@ Voltage regulators 3.3V:
 DC to DC converters:
     Chosen: One bought from Amazon because designing one would be to complicated
 
+--------------------------------------------------------------------------------
+Component specifications:
+
 Servos:
     Voltage: 4.8V - 6V Using: 5V
     Current:
         Idle: 0.4A
         Load: 1.5A
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name DE0_Nano-cache)(type Legacy)(uri ${KIPRJMOD}/Libraries/DE0_Nano-cache.lib)(options "")(descr ""))
+  (lib (name PowerBoardComponents)(type Legacy)(uri ${KIPRJMOD}/Libraries/PowerBoardComponents.lib)(options "")(descr ""))
+)

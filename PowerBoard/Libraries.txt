@@ -1,0 +1,2 @@
+RaspberryPi Symbol and Footprint:
+    https://www.snapeda.com/parts/ADA3708/Raspberry%20Pi/view-part/
