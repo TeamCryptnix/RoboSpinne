@@ -1,0 +1,7 @@
+Raspberry Pi:
+    Pins: https://pinout.xyz/pinout/pin7_gpio4
+    Interrupts: https://raspi.tv/2013/how-to-use-interrupts-with-python-on-the-raspberry-pi-and-rpi-gpio
+
+MPU-6050
+    General: https://www.electronicwings.com/sensors-modules/mpu6050-gyroscope-accelerometer-temperature-sensor-module
+             https://www.electronicshub.org/getting-started-arduino-mpu6050/
